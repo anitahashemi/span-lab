@@ -1,6 +1,9 @@
 # Span Lab
 
-A visual exploration of linear independence using Python.
+Built in an evening to better understand linear independence. 
+
+I explored independent and dependent vectors in 2D and 3D using
+Python visualizations, then checked the results with algebraic proofs.
 
 
 ## Why are these vectors linearly independent?
