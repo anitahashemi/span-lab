@@ -16,9 +16,17 @@ is $a = b = 0$.
 For our vectors,
 
 $$
-\mathbf{u} = \begin{bmatrix}2\\1\end{bmatrix},
+\mathbf{u} =
+\begin{bmatrix}
+2 \\
+1
+\end{bmatrix},
 \qquad
-\mathbf{v} = \begin{bmatrix}1\\2\end{bmatrix},
+\mathbf{v} =
+\begin{bmatrix}
+1 \\
+2
+\end{bmatrix}
 $$
 
 the equation becomes
@@ -37,15 +45,24 @@ $$
 
 Therefore $a = 0$ and $b = 0$. The vectors are linearly independent.
 
-Geometrically, they point in different directions, so their linear
-combinations span the entire plane.
+Geometrically, they point in different directions, so their linear combination
+spans the entire plane. 
 
-## What changes when the vectors are dependent?
+
+## Then what changes when the vectors are dependent?
 
 $$
-\mathbf{u} = \begin{bmatrix}2\\1\end{bmatrix},
+\mathbf{u} =
+\begin{bmatrix}
+2 \\
+1
+\end{bmatrix},
 \qquad
-\mathbf{v} = \begin{bmatrix}4\\2\end{bmatrix}.
+\mathbf{v} =
+\begin{bmatrix}
+4 \\
+2
+\end{bmatrix}.
 $$
 
 Since $\mathbf{v} = 2\mathbf{u}$,
@@ -63,4 +80,4 @@ $$
 a\mathbf{u} + b\mathbf{v} = (a + 2b)\mathbf{u}.
 $$
 
-All combinations lie on the same line through the origin.
+All combinations are on the same line from the origin. 
